@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="icon" type="image/jpg" href="./multimedia/2138440.png"
+</head>
+
+
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+    <main>
+        <form action="" method="">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text" name="nombre" placeholder="Ana">
+                </div>  
+                <br>
+                <div>
+                    <label for="apellido">APELLIDO</label>
+                    <input type="text" name="apellido" placeholder="Perez" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Escribe tu mail *</label>
+                    <input type="email" name="email" required>
+                </div> 
+                <br>
+                <div>
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+                <br>
+                <div>
+                    <label for="pass">Escribe tu password</label>
+                    <input type="password" name="pass">
+                </div>
+                <br>
+                <div>
+                    <label for="pais">Selecciona pais de residencia</label>
+                    <select name="pais" id="">
+                        <option value="arg">ARGENTINA</option>
+                        <option value="uru">URUGUAY</option>
+                        <option value="ch">CHILE</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="genero">Mascota</label>
+                    <input type="radio" name="genero" value="Gato">Gato
+                    <input type="radio" name="genero" value="Perro">Perro
+                    <input type="radio" name="genero" value="Otro">Otro
+                </div>
+                <br>
+                <div>
+                    <label for="Caracteristica">Mascota</label>
+                    <input type="radio" name="tamaños" value="Grande">Grande
+                    <input type="radio" name="tamaños" value="Mediana">Mediana
+                    <input type="radio" name="tamaños" value="Pequeña">Pequeña
+                    <input type="radio" name="tamaños" value="cachorro">cachorro
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Dejanos tu mensaje</label><br>
+                    <textarea name="comentario" id="" cols="50" rows="10" placeholder="escribre por lo menos 3 palabras"></textarea>
+                </div>
+                <div>Acepta términos y condiciones
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+            
+    
+    <br><br>
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="reset" value="Borrar Datos">
+                </div>
+    </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <h4>Práctica de formularios</h4>
+    </footer>
+</body>
+
+
+
+</html>
